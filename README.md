@@ -15,10 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Running with EE
+1. Add your variables to your .env and .env.local (samples are included)
+2. Run serve
+3. Or create an EE template and pull in the code in the BonesComponent to get around the CORS issues
